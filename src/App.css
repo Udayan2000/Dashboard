@@ -1,38 +1,211 @@
-.App {
-  text-align: center;
+* {
+  padding: 0px;
+  margin: 0px;
+  border-radius: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+ul {
+  padding: 0px;
+  margin: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html,
+body {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  overflow-y: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Custcontainer {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+
+/* Header Css Start */
+.mainheader {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 0px #ccc;
+  padding: 15px 0px;
+}
+
+.headermaincontent {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  width: 100%;
+}
+
+.header_bar_search {
+  width: 100%;
+  max-width: 49%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.handbar i {
+  color: rgb(38, 13, 227);
+  font-size: 18px;
+}
+
+.inputsearchborder {
+  width: 100%;
+  position: relative;
+}
+
+.divseach {
+  padding: 10px 15px;
+  width: 100%;
+  max-width: 100%;
+  border: none;
+  visibility: hidden;
+}
+
+.serchdiv {
+  padding: 10px 28px;
+  border: none;
+  box-shadow: 1px 1px 4px 5px #eaeaea;
+  background-color: #fff;
+  width: 100%;
+  visibility: visible;
+}
+
+.inputsearchborder input:focus {
+  outline: 0;
+}
+
+.searchformicon {
+  position: absolute;
+  top: 20%;
+  left: 2%;
+  z-index: 2;
+  transform: translateX(0px);
+  transition: transform 0.5s ease;
+}
+
+.searchformicon i {
+  font-size: 18px;
+  color: #000;
+  cursor: pointer;
+}
+
+.searchformicondiv {
+  position: absolute;
+  top: 20%;
+  left: 2%;
+  z-index: 2;
+  transform: translateX(40vw);
+  transition: transform 0.5s ease;
+}
+
+.searchformicondiv i {
+  font-size: 18px;
+  color: #000;
+  cursor: pointer;
+}
+
+.headerspecialicon {
+  width: 100%;
+  display: flex;
+  max-width: 49%;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.profile_border {
+  border: 2px solid #5046e5;
+  width: 100%;
+  max-width: 6%;
+  min-width: 6%;
+  height: 38px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  border-radius: 50%;
+  padding: 2px;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.dot_green {
+  position: absolute;
+  top: 31px;
+  left: 37px;
+  background-color: rgb(17, 255, 0);
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile_main_image {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  height: 100%;
 }
+
+.profile_main_image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-position: center;
+}
+
+.bell_icon {
+  position: relative;
+}
+
+.bell_icon i {
+  font-size: 18px;
+  color: #000;
+}
+
+.headerspecialicon .dot {
+  position: absolute;
+  top: 2px;
+  left: 12px;
+  background-color: red;
+  width: 7px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.list_icon i {
+  font-size: 18px;
+  color: #000;
+}
+
+.list_icon {
+  position: relative;
+}
+
+.envelope_open i {
+  font-size: 18px;
+  color: #000;
+}
+
+.envelope_open {
+  position: relative;
+}
+
+.braille_icon i {
+  color: #000;
+  font-size: 18px;
+}
+
+/* Header Css End */
