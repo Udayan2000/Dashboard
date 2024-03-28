@@ -1,0 +1,250 @@
+.faqssectionmain{
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+}
+.faqslist{
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    font-family: "Roboto Condensed";
+    text-align: center;
+}
+.faqsquestions{
+    font-family: "Noto Sans";
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+}
+.faqsanswers{
+    font-family: "Lato";
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+}
+.faqsquestuonandbuttopniconflx{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0px 0px 3px 0px #ccc
+}
+.faqsdivbg{
+    width: 100%;
+    max-width: 48%;
+    background-color: #fff;
+    border-radius: 5px;
+    align-self: flex-start;
+}
+.faqsmainflx{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding-top: 20px;
+}
+.btnminus{
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    color: #000;
+    box-shadow: 0px 0px 5px 0px #ccc;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btnplus{
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    color: #000;
+    box-shadow: 0px 0px 5px 0px #ccc;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btnminus i{
+    transform: rotate(-180deg);
+    transition: .2s ease-in-out;
+}
+.btnplus i{
+    transform: rotate(0deg);
+    transition: .2s ease-in-out;
+}
+.showfaws{
+    display: block;
+    padding: 10px;
+    border: 0px 1px 1px 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    animation: animate .2s linear backwards;
+    transform-origin:top ;
+}
+.hidefaqs{
+    display: none;
+    padding: 10px;
+    border: 0px 1px 1px 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    animation: animatenone .2s linear backwards ;
+    transform-origin:bottom;
+}
+@keyframes animate{
+    0%{
+        transform: scaleY(0);
+    }
+}
+@keyframes animatenone{
+    0%{
+        transform: scaleY(-100px);
+    }
+}
+/* Blog section for dashboard css Start */
+.blogcard{
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+}
+.blogtext {
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    font-family: "Roboto Condensed";
+    text-align: center;
+}
+.blogsmaingrd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    padding-top: 20px;
+}
+.blogmain{
+    width: 100%;
+    max-width: 23%;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px #ccc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.blogmainimage{
+    width: 100%;
+    height: 190px;
+    overflow: hidden;
+}
+.blogmainimage img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    overflow: hidden;
+    border-top-right-radius: 5px;
+}
+.blogmainbottom{
+    padding: 10px;
+}
+.blogtextown{
+    color: #000;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    margin-bottom: 10px;
+}
+/* Blog section for dashboard css end */
+
+/* emni test */
+.txt{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    margin-bottom: 10px; 
+}
+/* emni test */
+
+/* Card Section Design Start */
+.cardsectiondesignmain{
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+}
+.cardsectiommain{
+    width: 100%;
+    max-width: 24%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px 0px #ccc;
+    border-radius: 10px;
+}
+.cardsectiondivimg {
+    width: 100%;
+    height: 200px;
+}
+.cardsectiondivimg img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.carddescriptiontxt{
+    color: #000;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    margin: 10px 0px;
+}
+.verifddivbtn{
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    border: none;
+    max-width: 200px;
+    margin: 17px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.crstxtdivflx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    padding: 0px 0px 16px 0px;
+}
+.carddetilasdiv{
+    padding: 10px;
+}
+/* Card Section Design End */
+
+
+  
+
